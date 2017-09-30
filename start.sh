@@ -5,7 +5,7 @@ OS="`uname`"
 case $OS in
   'Linux')
     OS='Linux'
-    google-chrome https://localhost:8082/demo/index.html
+   firefox https://localhost:8082/demo/index.html
     ;;
   'FreeBSD')
     OS='FreeBSD'
